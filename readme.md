@@ -2,5 +2,5 @@
 
 npm install
 
-npm run build
---> build css
+grunt sass
+grunt cssmin

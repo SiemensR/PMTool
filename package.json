@@ -1,21 +1,26 @@
 {
   "name": "pmtool",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "npm install",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anton Sementsov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiemensR/PMTool.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "popper.js": "^1.14.3",
-    "tooltip.js": "^1.2.0"
+  "bugs": {
+    "url": "https://github.com/SiemensR/PMTool/issues"
   },
+  "homepage": "https://github.com/SiemensR/PMTool#readme",
   "devDependencies": {
-    "webpack": "^4.12.0",
-    "webpack-cli": "^3.0.3"
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0"
   }
 }

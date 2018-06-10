@@ -29,9 +29,19 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {                         // Dictionary of files
-          'src/css/main.css': 'src/scss/main.scss',       // 'destination': 'source' über komma hinzufügen 
+          'src/css/main.css': 'src/scss/main.scss',
+          'src/css/main.css': 'src/scss/signin.scss'       // 'destination': 'source' über komma hinzufügen
         }
       }
+    },
+    watch: {
+      css: {
+        files: 'src/scss/*.scss',
+        tasks: ['sass','cssmin'],
+        options: {
+          livereload: true,
+        },
+      },
     }
   });
 
@@ -39,6 +49,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);

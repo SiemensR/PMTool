@@ -1,7 +1,21 @@
+@import "signin.scss";
 $font-stack:    Helvetica, sans-serif;
 $primary-color: black;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.rightButton {
+  padding-left:80%;
+}
+
+.mr-auto {
+  margin-right: 0;
 }

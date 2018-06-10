@@ -4,12 +4,16 @@ body {
 }
 
 body {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
+
+}
+
+.alignItem {
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .form-signin {
@@ -40,4 +44,14 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.errorLogin {
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: calc(100%/2 - 280px);
+  font-size: 2em;
 }

@@ -29,8 +29,8 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {                         // Dictionary of files
-          'src/css/main.css': 'src/scss/main.scss',
-          'src/css/main.css': 'src/scss/signin.scss'       // 'destination': 'source' über komma hinzufügen
+          'src/css/main.css': 'src/scss/main.scss'
+        //  'src/css/main.css': 'src/scss/signin.scss'       // 'destination': 'source' über komma hinzufügen
         }
       }
     },

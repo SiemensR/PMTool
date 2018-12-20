@@ -8,7 +8,7 @@
   </button>
   <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Projects <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="start.php">Projects <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="calender.php">Calender</a>
       <a class="nav-item nav-link" href="about.php">About</a>
       <form class="form-inline rightButton" action="../module/logout.php">

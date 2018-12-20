@@ -1,4 +1,9 @@
 /node_modules
 /.sass-cache
+<<<<<<< HEAD
 /.idea
 /deployments
+=======
+/deployment
+/.idea
+>>>>>>> feature/newcss

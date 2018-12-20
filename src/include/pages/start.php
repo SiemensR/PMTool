@@ -11,7 +11,7 @@ require_once('../templating/loginlogic.php');
     <!-- Bootstrap CSS -->
     <link href="../../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../dist/css/main.min.css" rel="stylesheet">
-    <title>PM Tool Projecs</title>
+    <title>PM Tool Projects</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -25,7 +25,7 @@ require_once('../templating/loginlogic.php');
           <div class="sidebar-sticky">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="start.php">
                   <span data-feather="home"></span>
                   Dashboard <span class="sr-only">(current)</span>
                 </a>
@@ -33,31 +33,13 @@ require_once('../templating/loginlogic.php');
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file"></span>
-                  Orders
+                  Add new project
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="shopping-cart"></span>
-                  Products
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="users"></span>
-                  Customers
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="bar-chart-2"></span>
-                  Reports
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="layers"></span>
-                  Integrations
+                  Project overview
                 </a>
               </li>
             </ul>
